@@ -187,6 +187,8 @@ Power BI was employed to create interactive and visually appealing dashboards fo
 
 #### 3.1 The Data Model
 
+![Image](https://github.com/user-attachments/assets/29b09337-d705-4e35-a33d-ec81e3a35a08)
+
 #### 3.2 DAX Measures 
 - Conversion Rate: Percentage of website visitors who make a purchase.
 - Customer Engagement Rate: Level of interaction with marketing content (clicks, likes, comments).
