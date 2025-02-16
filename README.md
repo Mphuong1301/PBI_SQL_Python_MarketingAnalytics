@@ -45,9 +45,6 @@ SELECT
 FROM 
     dbo.customers as c  
 LEFT JOIN
--- RIGHT JOIN
--- INNER JOIN
--- FULL OUTER JOIN
     dbo.geography g  
     c.GeographyID = g.GeographyID;  -- Joins the two tables on the GeographyID field to match customers with their geographic information
 ```
@@ -184,7 +181,7 @@ Aggregated and filtered large datasets to calculate metrics like conversion rate
 **Result:**
 Connected to the SQL database using libraries like pyodbc or sqlalchemy. Used Python scripts to handle and manipulate large datasets efficiently. Performed sentiment analysis on customer reviews using NLP libraries.  
 
-###3. Data Visualization with Power BI
+### 3. Data Visualization with Power BI
 **Process:**
 Power BI was employed to create interactive and visually appealing dashboards for presenting insights. These dashboards were designed for easy stakeholder understanding and decision-making.
 
@@ -216,9 +213,9 @@ Power BI was employed to create interactive and visually appealing dashboards fo
 Integrated SQL server data directly into Power BI for real-time analysis. Built visualizations for trends in customer engagement, conversion rates, and sentiment analysis. Designed intuitive, actionable dashboards that showcased key performance metrics.
 
 ## V. Outcomes
-Increase conversion rates through targeted product campaigns.
+- Increase conversion rates through targeted product campaigns.
 
-Drive higher customer engagement with optimized and engaging content strategies.
+- Drive higher customer engagement with optimized and engaging content strategies.
 
-Improve overall customer satisfaction and ratings by addressing key pain points.
+- Improve overall customer satisfaction and ratings by addressing key pain points.
 
