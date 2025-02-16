@@ -25,6 +25,7 @@ Sentiment Analysis: Natural Language Processing (NLP) libraries in Python.
 This project followed a structured data analysis process involving SQL, Python, and Power BI for end-to-end insights and recommendations.
 
 ### 1. Data Analysis with SQL
+
 **Process:**
 SQL was used to clean, preprocess, and analyze the raw data. Optimized queries were written to extract meaningful insights, such as identifying seasonal trends, conversion rates, and product performance.
 
@@ -168,32 +169,51 @@ WHERE
 
 ![Image](https://github.com/user-attachments/assets/e533aea8-3ded-47a3-b20a-a7ebf61c725e)
 
-Result:
+**Result:**
 Aggregated and filtered large datasets to calculate metrics like conversion rates, customer engagement, and average ratings. Used advanced SQL techniques such as CTEs, JOINS, and WINDOW FUNCTIONS to streamline the analysis process.
 
 
-###2. Data Processing with Python
-Process:
-Python (in VS Code) was used to connect to the SQL server, automate data extraction, and perform additional data wrangling. Python libraries such as pandas, numpy, and matplotlib were utilized for deeper analysis and initial visualization.
+### 2. Data Processing with Python
 
-Result:
-Connected to the SQL database using libraries like pyodbc or sqlalchemy. Used Python scripts to handle and manipulate large datasets efficiently. Performed sentiment analysis on customer reviews using NLP libraries.
+**Process:**
+- Python (in Visual Studio Code) was used to connect to the SQL server, automate data extraction, and perform additional data wrangling. Python libraries such as pandas, numpy, and matplotlib were utilized for deeper analysis.
+- Uses VADER to calculate sentiment scores from review text.
+- Categorize Sentiment by combines sentiment score and rating to classify reviews and group Sentiment Scores into ranges to make analysis easier.
+- Save Results to CSV.
+
+**Result:**
+Connected to the SQL database using libraries like pyodbc or sqlalchemy. Used Python scripts to handle and manipulate large datasets efficiently. Performed sentiment analysis on customer reviews using NLP libraries.  
 
 ###3. Data Visualization with Power BI
-Process:
+**Process:**
 Power BI was employed to create interactive and visually appealing dashboards for presenting insights. These dashboards were designed for easy stakeholder understanding and decision-making.
 
-Result:
-Integrated SQL server data directly into Power BI for real-time analysis. Built visualizations for trends in customer engagement, conversion rates, and sentiment analysis. Designed intuitive, actionable dashboards that showcased key performance metrics.
+#### 3.1 The Data Model
 
-## VI. DAX Measures 
+#### 3.2 DAX Measures 
 - Conversion Rate: Percentage of website visitors who make a purchase.
 - Customer Engagement Rate: Level of interaction with marketing content (clicks, likes, comments).
 - Average Order Value (AOV): Average amount spent by a customer per transaction.
 - Customer Feedback Score: Average rating from customer reviews.
 
+#### 3.1 Overview
 
+![Image](https://github.com/user-attachments/assets/bbc5bdb4-af64-44f1-92ac-11d1b13b47f2)
 
+#### 3.2 Conversion Details
+
+![Image](https://github.com/user-attachments/assets/ab5dc819-4ce2-49d2-ba80-d78e3fb36a9c)
+
+#### 3.3 Social Media Details
+
+![Image](https://github.com/user-attachments/assets/23c27820-0530-45cb-9cfc-d2c8a2230d25)
+
+#### 3.4 Customer Reveiw Details
+
+![Image](https://github.com/user-attachments/assets/9704819e-b6bd-414d-8346-852f8a64e45c)
+
+**Result:**
+Integrated SQL server data directly into Power BI for real-time analysis. Built visualizations for trends in customer engagement, conversion rates, and sentiment analysis. Designed intuitive, actionable dashboards that showcased key performance metrics.
 
 ## V. Outcomes
 Increase conversion rates through targeted product campaigns.
