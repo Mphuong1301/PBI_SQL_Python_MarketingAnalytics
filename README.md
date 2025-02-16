@@ -14,11 +14,11 @@ ShopEasy, an online retail business, is facing reduced customer engagement and c
 - Improve Customer Feedback Scores: Understand common senses in customer reviews and identify recurring positive and negative feedback to guide product and service improvements.
 
 ## III. Tools & Technologies
-Data Processing & Analysis: Python, Excel.
+Data Processing & Analysis: SQL, Python.
 
-Data Visualization: Matplotlib, Power BI.
+Data Visualization: Power BI.
 
-Sentiment Analysis: Natural Language Processing (NLP) libraries in Python.
+Sentiment Analysis: Natural Language Processing (NLP) libraries using Python in Visual Studio Code.
 
 ## IV. Methodology
 
